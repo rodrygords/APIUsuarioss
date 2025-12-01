@@ -209,3 +209,4 @@ C:\Users\Luan\APIUsuarioss\obj\Debug\net10.0\refint\APIUsuarioss.dll
 C:\Users\Luan\APIUsuarioss\obj\Debug\net10.0\APIUsuarioss.pdb
 C:\Users\Luan\APIUsuarioss\obj\Debug\net10.0\APIUsuarioss.genruntimeconfig.cache
 C:\Users\Luan\APIUsuarioss\obj\Debug\net10.0\ref\APIUsuarioss.dll
+C:\Users\Luan\APIUsuarioss\bin\Debug\net10.0\postman_collection.json
