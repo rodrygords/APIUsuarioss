@@ -52,8 +52,7 @@ app.MapGet("/usuarios", async (IUsuarioService service, CancellationToken ct) =>
         return Results.Problem(ex.Message, statusCode: 500);
     }
 })
-.WithName("ListarUsuarios")
-.WithOpenApi();
+.WithName("ListarUsuarios");
 
 // GET /usuarios/{id} - Buscar usuário por ID
 app.MapGet("/usuarios/{id:int}", async (int id, IUsuarioService service, CancellationToken ct) =>
@@ -68,8 +67,7 @@ app.MapGet("/usuarios/{id:int}", async (int id, IUsuarioService service, Cancell
         return Results.Problem(ex.Message, statusCode: 500);
     }
 })
-.WithName("ObterUsuario")
-.WithOpenApi();
+.WithName("ObterUsuario");
 
 // POST /usuarios - Criar novo usuário
 app.MapPost("/usuarios", async (
@@ -103,8 +101,7 @@ app.MapPost("/usuarios", async (
         return Results.Problem(ex.Message, statusCode: 500);
     }
 })
-.WithName("CriarUsuario")
-.WithOpenApi();
+.WithName("CriarUsuario");
 
 // PUT /usuarios/{id} - Atualizar usuário
 app.MapPut("/usuarios/{id:int}", async (
@@ -143,8 +140,7 @@ app.MapPut("/usuarios/{id:int}", async (
         return Results.Problem(ex.Message, statusCode: 500);
     }
 })
-.WithName("AtualizarUsuario")
-.WithOpenApi();
+.WithName("AtualizarUsuario");
 
 // DELETE /usuarios/{id} - Remover usuário (soft delete)
 app.MapDelete("/usuarios/{id:int}", async (int id, IUsuarioService service, CancellationToken ct) =>
@@ -159,7 +155,6 @@ app.MapDelete("/usuarios/{id:int}", async (int id, IUsuarioService service, Canc
         return Results.Problem(ex.Message, statusCode: 500);
     }
 })
-.WithName("RemoverUsuario")
-.WithOpenApi();
+.WithName("RemoverUsuario");
 
 app.Run();
