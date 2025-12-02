@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8j5GqfhrLGU=",
+  "dgSpecHash": "n8J2ijLmVv4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Luan\\APIUsuarioss\\APIUsuarioss.csproj",
+  "projectFilePath": "C:\\Users\\Luan\\API-de-usuario-as-Rodrygo\\APIUsuarioss\\APIUsuarioss.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luan\\.nuget\\packages\\fluentvalidation\\12.1.0\\fluentvalidation.12.1.0.nupkg.sha512",
     "C:\\Users\\Luan\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.0\\fluentvalidation.dependencyinjectionextensions.12.1.0.nupkg.sha512",
