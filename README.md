@@ -90,12 +90,12 @@ APIUsuarios/
 
 ### Base URL
 ```
-https://localhost:{porta}
+https://localhost:{5191}
 ```
 
 ### Documentação Interativa
 ```
-https://localhost:{porta}/swagger
+https://localhost:{5191}/swagger
 ```
 
 ### Rotas Disponíveis
@@ -130,8 +130,8 @@ https://localhost:{porta}/swagger
 
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/seu-usuario/api-usuarios-as-seu-nome.git
-   cd api-usuarios-as-seu-nome
+   git clone https://github.com/rodrygords/API-de-usuario-as-Rodrygo
+   cd API-de-usuario-as-Rodrygo
    ```
 
 2. **Restaure as dependências**
@@ -151,7 +151,7 @@ https://localhost:{porta}/swagger
 
 5. **Acesse a documentação Swagger**
    ```
-   https://localhost:{porta}/swagger
+   https://localhost:{5191}/swagger
    ```
    > A porta será exibida no terminal após executar o projeto
 
@@ -332,8 +332,8 @@ O projeto inclui uma collection completa do Postman para facilitar os testes.
 
 1. Abra o Postman
 2. Clique em **Import**
-3. Selecione o arquivo `APIUsuarios.postman_collection.json`
-4. Ajuste a variável `base_url` para a porta correta (ex: `https://localhost:7123`)
+3. Selecione o arquivo `API-Usuarios-c#.postman_collection.json`
+4. Ajuste a variável `base_url` para a porta correta (http://localhost:5191)
 
 ### Executar Testes
 
