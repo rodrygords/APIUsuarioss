@@ -6,6 +6,7 @@ using APIUsuarios.Infrastructure.Repositories;
 using APIUsuarios.Application.Services;
 using APIUsuarios.Application.Validators;
 using APIUsuarios.Application.DTOs;
+using APIUsuarios.Application.Converters;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +24,16 @@ builder.Services.AddValidatorsFromAssemblyContaining<UsuarioCreateDtoValidator>(
 // Configurar Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.ConfigureHttpJsonOptions(options =>
+{
+    options.SerializerOptions.DefaultIgnoreCondition = 
+        System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull;
+    
+    // Formatar DateTime
+    options.SerializerOptions.Converters.Add(new DateTimeConverter());
+    options.SerializerOptions.Converters.Add(new NullableDateTimeConverter());
+});
 
 var app = builder.Build();
 

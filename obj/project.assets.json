@@ -3766,11 +3766,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luan\\API-de-usuario-as-Rodrygo\\APIUsuarioss\\APIUsuarioss.csproj",
+      "projectUniqueName": "C:\\Users\\Luan\\API-de-usuario-as-Rodrygo\\APIUsuarioss.csproj",
       "projectName": "APIUsuarioss",
-      "projectPath": "C:\\Users\\Luan\\API-de-usuario-as-Rodrygo\\APIUsuarioss\\APIUsuarioss.csproj",
+      "projectPath": "C:\\Users\\Luan\\API-de-usuario-as-Rodrygo\\APIUsuarioss.csproj",
       "packagesPath": "C:\\Users\\Luan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luan\\API-de-usuario-as-Rodrygo\\APIUsuarioss\\obj\\",
+      "outputPath": "C:\\Users\\Luan\\API-de-usuario-as-Rodrygo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Luan\\AppData\\Roaming\\NuGet\\NuGet.Config"
